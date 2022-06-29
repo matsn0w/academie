@@ -1,0 +1,314 @@
+body{
+    background-color: #ededed;
+    background-attachment:fixed;
+	font-family:'Open Sans', sans-serif;
+}
+.statusLock.stuck{
+    top:0;
+    position:fixed;
+    margin-top:10px;
+}
+.statusLock{
+  height: auto;
+}
+.displayed{
+    display:block;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#menu{
+	background-color: #222222;
+	width: 100%;
+	height: 50px;
+	color: #FFF;
+	border-bottom:2px solid #ddd;
+	padding-left: 30px;
+}
+
+#menubutton {
+  width: 100px;
+  height: 50px;
+  list-style: none;
+  float: left;
+  padding: 16px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #FFF;
+  text-align: center;
+}
+
+#menubutton:hover {
+  background-color: #ff9900;
+  -o-transition:.7s;
+  -ms-transition:.7s;
+  -moz-transition:.7s;
+  -webkit-transition:.7s;
+}
+
+.not-displayed{
+    display:none;
+}
+#openable-chat{
+    background:white;
+    border:1px solid black;
+    position: fixed;
+    padding:10px;
+    width:275px;
+    bottom:0;
+    z-index:999;
+    margin-bottom:31px;
+    height:335px;
+	margin-left: 10px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+#messages{
+    height:250px;
+    overflow:auto;
+}
+#openable-chatbutton{
+    background-color:#222222;
+    color:white;
+    width:275px;
+    padding:5px;
+    font-weight:bold;
+    font-size:15px;
+    position: fixed;
+    bottom:0;
+	margin-left: 10px;
+}
+.onderweg{
+    border: 1px orange solid;
+    background: orange;
+    color: white;
+    width:75px;
+    padding-left:5px;
+}
+.tp{
+    border: 1px green solid;
+    background: green;
+    color: white;
+    width:30px;
+    padding-left:5px;
+}
+.transport{
+    border: 1px blue solid;
+    background: blue;
+    color: white;
+    width:75px;
+    padding-left:5px;
+}
+.assistentiecollega{
+    border: 1px red solid;
+    background: red;
+    color: white;
+    width:100%;
+    padding-left:5px;
+}
+.spraakaanvraag{
+    border: 1px yellow solid;
+    background: yellow;
+    color: black;
+    width:100%;
+    padding-left:5px;
+}
+.koppelaanvraag{
+    border: 1px green solid;
+    background: green;
+    color: white;
+    width:100%;
+    padding-left:5px;
+}
+
+.container{
+    margin-top:20px !important;
+    margin:0 auto;
+}
+.container-2{
+    margin:0 auto;
+}
+.button-container{
+    width:350px;
+    margin:0 auto;
+    padding:5px;
+}
+.btn-large{
+    padding: 10px 16px;
+    font-size: 12px;
+    line-height: 1.33;
+}
+.cursor{
+    cursor:default !important;
+}
+.maak-aantekening{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.aantekening-send{
+    margin-top:5px;
+}
+.aantekening{
+    float:left;
+}
+.aantekeningen{
+    width:100%;
+}
+.aantekening-delete{
+    float:right;
+}
+.button {
+    display: inline-block;
+    padding: 6px 0;
+    font-weight:bold;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width:85px;
+    height:85px;
+    border-radius:7px;
+}
+.left{
+    float:left;
+    width:49%;
+}
+.right{
+    float:right;
+    width:49%;
+}
+.btn-group{
+    margin: 10px 0 10px 0;
+    width:100%;
+    height:100%;
+}
+.btn-status{
+    margin: 2px 0 2px 0;
+    width:100%;
+    height:100%;
+}
+.btn-status button{
+    width:31%;
+    padding:2px;
+    height:100px;
+    margin:2px;
+}
+.melding{
+    background:#FFF;
+    padding:5px;
+    margin-bottom:10px;
+    height: auto;
+}
+.melding a{
+    color: #0182c6;
+}
+.melding-title{
+    background-color: #005cab;
+    padding:9px;
+    color:white;
+    font-weight: bold;
+    size:12px !important;
+}
+
+.melding-title-2{
+    background-color: #238321;
+    padding:9px;
+    color:white;
+    font-weight: bold;
+    size:12px !important;
+}
+
+.form-controller {
+      width: 100%;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.428571429;
+      color: #555;
+      vertical-align: middle;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+      -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#info{
+    float:left;
+    width:140px;
+    display:block;
+}
+#meldingen{
+    display:block;
+}
+.buttons{
+    float:left;
+    display:block;
+}
+#melding-maken{
+    display:none;
+}
+#sitrap-maken{
+    display:none;
+}
+.hoverstatus:hover{
+    background: #E6E6E6;
+    cursor:pointer;
+    border: 1px solid #E6E6E6;
+    border-radius:4px;
+}
+.hovermelding:hover{
+    background: #E6E6E6;
+    cursor:pointer;
+    border: 1px solid #E6E6E6;
+    border-radius:4px;
+}
+.rightfloat{
+    float:right;
+    margin-bottom:5px;
+    margin-right:10px;
+}
+
+.black_overlay{
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 1px solid black;
+	background-color: white;
+    border-round:4px;
+	z-index:1002;
+	overflow: auto;
+}
